@@ -1,0 +1,31 @@
+{% load static %}
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="{% static 'food/resultstyle.css' %}">
+  <link href='https://fonts.googleapis.com/css?family=Londrina Shadow' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+  <title> Results </title>
+  <p class='getready'> You should eat at...</p>
+  <h1 class='result'><strong>{{place_to_eat}}</strong></h1>
+</head>
+<body>
+  <h2> Not happy with your option? </h2>
+  <div class="buttonHolder">
+      <!--<a href="./"> Choose again! </a>-->
+      <input type="submit" value="Choose again!" onClick="window.location.reload();">
+  </div>
+  <h2> Other places to eat! </h2>
+  <div class="table-wrapper", align="center">
+    <table width= "100%", align="center">
+      <tr>
+      </tr>
+        {% for business in businesses_list %}
+        <tr>
+          <td>{{business}}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+</body>
+</html>

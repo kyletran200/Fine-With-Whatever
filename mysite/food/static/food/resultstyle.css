@@ -1,0 +1,80 @@
+p.getready {
+  font-family: 'Londrina Shadow';
+  font-size: 2em;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+input[type='submit'] {
+  margin-top:10px;
+  font-family: 'Londrina Shadow';
+  font-size: 1.2em;
+  background-color: Yellow;
+  border: 2px solid Black;
+  font: Black;
+  font-weight: Bold;
+}
+.buttonHolder {
+  text-align: center;
+}
+
+p {
+  font-family: 'Londrina Shadow';
+  text-align:center
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Bungee Shade';
+  background: Yellow;
+  margin-bottom: 50px;
+  border: 5px solid Black;
+  width: 30%;
+}
+
+h2 {
+  font-family: 'Londrina Shadow';
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+html, body {
+  background-color: LemonChiffon;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid White;
+  text-align: center;
+  background-color: LightPink;
+  color: Black;
+}
+
+table {
+  margin: 0px auto;
+  border: 1px solid Black;
+  background-color: PaleVioletRed;
+}
+
+th {
+  font-family: 'Londrina Shadow';
+}
+
+td {
+  text-align: center;
+  font-family: 'Amaranth';
+}
+
+.table-wrapper {
+  border: 1px solid black;
+  width: 414px;
+  height: 414px;
+  overflow: auto;
+  text-align:right;
+  margin: 0 auto;
+}

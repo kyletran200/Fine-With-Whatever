@@ -1,0 +1,60 @@
+h1 {
+  color: MediumVioletRed;
+  text-align: center;
+  font-size: 32px;
+}
+
+h2 {
+  color: MediumVioletRed;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Londrina Shadow';
+}
+body {
+  background-color: Pink;
+}
+
+p {
+  text-align: center;
+  font-family: 'Londrina Shadow';
+  font-size: 1.1em;
+  color: White;
+  margin-top: 50px;
+}
+
+ input[type=submit] {
+  width:25%;
+  background-color: LemonChiffon;
+  font-family: 'Londrina Shadow';
+  font-size: 1.2em;
+  padding: 12px 20px;
+  border-width:medium;
+  border-color: PaleVioletRed;
+}
+
+.buttonHolder {
+  text-align: center;
+}
+
+input {
+  background-color: LemonChiffon;
+  border-width: Medium;
+  border-color: White;
+}
+
+form {
+  background-color: #e085a3;
+  border-style: solid;
+  border-width: medium;
+  border-color: MediumVioletRed;
+  width: 500px;
+  height: 300px;
+}
+
+body {
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+}

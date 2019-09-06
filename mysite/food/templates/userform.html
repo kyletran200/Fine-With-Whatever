@@ -1,0 +1,16 @@
+{% load static %}
+<link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="{% static 'food/style.css' %}">
+<link href='https://fonts.googleapis.com/css?family=Londrina Shadow' rel='stylesheet'>
+<head>
+  <title>Fine With Whatever</title>
+  <h1 style="font-family: 'Bungee Shade'; font-size: 40px"> Fine With Whatever </h1>
+  <h2>Can't decide what to eat? Fill in the form and let us choose for you!</h2>
+</head>
+<form action="/" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <div class="buttonHolder">
+      <input type="submit" value="Let's Eat!">
+    </div>
+</form>
